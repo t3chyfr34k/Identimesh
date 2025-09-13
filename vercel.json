@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" }
+  ],
+  "scripts": {
+    "build": "npm run dev && cd server && npm install && npm start"
+  }
+}
